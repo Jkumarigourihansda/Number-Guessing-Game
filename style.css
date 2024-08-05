@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serfif;
+  }
+  body {
+    min-height: 50vh;
+    display:flex;
+    aligh-item: center;
+    justify-content: center;
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjItbWluZC0xNl8xLmpwZw.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .container {
+    padding: 30px 30px;
+    border-radius: 12px;
+    background: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #guessInput {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #guessButton {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #message {
+    margin-top: 15px;
+  }
+  
+  #guesses {
+    margin-top: 10px;
+  }
